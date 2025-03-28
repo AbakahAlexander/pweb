@@ -34,6 +34,9 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Alexander Abeiku Abakah">
+                </div>
                 <h1>Alexander Abeiku Abakah</h1>
                 <h2>Electrical Engineering & Computer Science Student</h2>
                 <p>Building innovative solutions through technology</p>
@@ -43,7 +46,7 @@
                 </div>
                 <div class="social-icons">
                     <a href="https://github.com/AbakahAlexander" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/alexander-abakah/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/alexander-a-519445204/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="mailto:aabakah@caltech.edu" aria-label="Email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
@@ -89,7 +92,8 @@
                     <h3>Languages</h3>
                     <div class="skill-items">
                         <span class="skill-badge advanced">Python</span>
-                        <span class="skill-badge intermediate">C/C++</span>
+                        <span class="skill-badge advanced">C/C++</span>
+                        <span class="skill-badge intermediate">CUDA</span>
                         <span class="skill-badge intermediate">Java</span>
                         <span class="skill-badge intermediate">HTML/CSS</span>
                         <span class="skill-badge intermediate">JavaScript</span>
@@ -103,21 +107,25 @@
                 <div class="skill-category">
                     <h3>Tools</h3>
                     <div class="skill-items">
-                        <span class="skill-badge">Linux</span>
-                        <span class="skill-badge">Git</span>
-                        <span class="skill-badge">RISC-V</span>
-                        <span class="skill-badge">Vim</span>
-                        <span class="skill-badge">Altium</span>
-                        <span class="skill-badge">DipTrace</span>
-                        <span class="skill-badge">Vivado</span>
+                        <span class="skill-badge intermediate">Linux</span>
+                        <span class="skill-badge intermediate">Git</span>
+                        <span class="skill-badge intermediate">RISC-V</span>
+                        <span class="skill-badge intermediate">Vim</span>
+                        <span class="skill-badge intermediate">Altium</span>
+                        <span class="skill-badge intermediate">DipTrace</span>
+                        <span class="skill-badge intermediate">Vivado</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Frameworks/Libraries</h3>
                     <div class="skill-items">
-                        <span class="skill-badge">PyTorch</span>
-                        <span class="skill-badge">TensorFlow</span>
-                        <span class="skill-badge">PySpice</span>
+                        <span class="skill-badge advanced">PyTorch</span>
+                        <span class="skill-badge intermediate">Matplotlib</span>
+                        <span class="skill-badge intermediate">TensorFlow</span>
+                        <span class="skill-badge intermediate">PySpice</span>
+                        <span class="skill-badge intermediate">Pandas</span>
+                        <span class="skill-badge intermediate">NumPy</span>
+                        
                     </div>
                 </div>
             </div>
@@ -164,6 +172,36 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-content">
+                        <h3>CUDA RGB to Grayscale Converter</h3>
+                        <div class="tech-stack">
+                            <span>CUDA</span>
+                            <span>C/C++</span>
+                            <span>OpenCV</span>
+                        </div>
+                        <p>Developed a CUDA-based parallel computing application for converting RGB images to grayscale. Implemented GPU memory management, CUDA kernels for pixel processing, and validation against CPU implementations with significant performance gains.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/AbakahAlexander/simple_cuda" class="project-link" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Scalable Networks with IPv4/IPv6</h3>
+                        <div class="tech-stack">
+                            <span>Cisco IOS</span>
+                            <span>GNS3</span>
+                            <span>BGP</span>
+                            <span>OSPF</span>
+                            <span>RIP</span>
+                        </div>
+                        <p>Designed and deployed a multi-autonomous system network with VLAN segmentation, routing protocols (OSPF, RIP, BGP), link cost manipulation, and GRE tunneling. Implemented dual-stack IPv4/IPv6 addressing across multiple domains.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/AbakahAlexander/Design-and-Deployment-of-Scalable-Networks-with-IPv4-IPv6-" class="project-link" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
                         <h3>CUDA-Accelerated Cryptographic Security Suite</h3>
                         <div class="tech-stack">
                             <span>CUDA</span>
@@ -174,7 +212,7 @@
                         </div>
                         <p>Built a CUDA security platform for fraud detection, Bitcoin mining, and cryptographic defense with 150M+ hashes/sec. Optimized CUDA C++ kernels for 512 SHA-256 transactions and anomaly detection, 8× faster than CPU.</p>
                         <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">View Project</a>
+                            <a href="https://github.com/AbakahAlexander/sha256" class="project-link" target="_blank">View on Github</a>
                         </div>
                     </div>
                 </div>
@@ -189,7 +227,7 @@
                         </div>
                         <p>Developed a React.js-based responsive website, integrating advanced CSS animations and JavaScript event handling to create an interactive user interface with 50% faster load times.</p>
                         <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">View Project</a>
+                            <a href="https://brandstormmarketing.netlify.app/" class="project-link" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +241,7 @@
                         </div>
                         <p>Developed a Java-based text editor with real-time speech recognition, integrating Google Cloud Speech-to-Text API to achieve 95% transcription accuracy.</p>
                         <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">View Project</a>
+                            <a href="https://github.com/AbakahAlexander/AI-based-real-time-text-editor" class="project-link" target="_blank">View on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +253,7 @@
                         </div>
                         <p>Implemented a simplified RISC-V CPU in Verilog with 5 instructions sets, 100 MHz clock, and 95% resource efficiency.</p>
                         <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">View Project</a>
+                            <a href="https://github.com/AbakahAlexander/Single-Cycle-RISC-V-processor" class="project-link" target="_blank">View on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -262,7 +300,7 @@
                     </div>
                     <div class="social-links">
                         <a href="https://github.com/AbakahAlexander" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/alexander-abakah/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/alexander-a-519445204/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <form class="contact-form">
