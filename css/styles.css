@@ -624,6 +624,25 @@ header .container {
     resize: vertical;
 }
 
+/* Form status messages */
+#form-status {
+    margin-top: 20px;
+}
+
+.form-success {
+    color: #059669;
+    padding: 10px;
+    background-color: #d1fae5;
+    border-radius: 6px;
+}
+
+.form-error {
+    color: #dc2626;
+    padding: 10px;
+    background-color: #fee2e2;
+    border-radius: 6px;
+}
+
 /* Footer */
 footer {
     background-color: var(--dark-color);
